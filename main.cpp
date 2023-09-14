@@ -187,7 +187,7 @@ static void toggle_mod()
 		}
 #else
 		if (!spawn_ball)
-			golf_log("ERROR: No spawn ball found, not changing state\n");
+			mod_log("ERROR: No spawn ball found, not changing state\n");
 		else
 #endif
 		{
