@@ -639,7 +639,7 @@ static void keyboard_handle(DWORD key, WORD repeats, BYTE scancode, BOOL is_exte
 
 	if (is_ctrl_down)
 	{
-		if (key == 0x4c) // l
+		if (key == 0x4b) // k
 			toggle_mod_state = true;
 
 		if (key == 0x4f && mod_state == mod_state::spectating_ball) // o
